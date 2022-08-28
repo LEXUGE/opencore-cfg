@@ -5,8 +5,8 @@
   inputs.utils.url = "github:numtide/flake-utils";
   inputs.oceanix.url = "github:LEXUGE/oceanix";
 
-  outputs = { self, nixpkgs, utils, oceanix, ... }:
-    utils.lib.eachSystem [ "x86_64-linux" ] (system:
+  outputs = { self, nixpkgs, utils, oceanix, ... }: with utils.lib;
+    eachSystem [ system.x86_64-darwin system.x86_64-linux ] (system:
       {
         packages = rec {
           x1c7 = (oceanix.lib.OpenCoreConfig {
