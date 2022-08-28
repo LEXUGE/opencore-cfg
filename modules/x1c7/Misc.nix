@@ -1,10 +1,11 @@
 { lib, pkgs, ... }: with lib.oc.plist; {
   oceanix.opencore.settings.Misc = {
     Boot.HideAuxiliary = true;
+    Boot.PollAppleHotKeys = true;
 
     # Adapted fom https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#debug
     Debug = {
-      AppleDebug = true;
+      AppleDebug = false;
       ApplePanic = true;
       DisableWatchDog = true;
       # the suggested value 67 slows down boot time so much
@@ -14,6 +15,7 @@
     Entries = [ ];
 
     Security = {
+      AuthRestart = true;
       AllowSetDefault = true;
       BlacklistAppleUpdate = true;
       ScanPolicy = 0;
