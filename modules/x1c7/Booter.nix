@@ -4,27 +4,12 @@
     MmioWhitelist = [ ];
     Patch = [ ];
 
+    # Quirk changes based on https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#booter
     Quirks = {
-      AllowRelocationBlock = false;
-      AvoidRuntimeDefrag = true;
       DevirtualiseMmio = true;
-      DisableSingleUser = false;
-      DisableVariableWrite = false;
-      DiscardHibernateMap = false;
-      EnableSafeModeSlide = true;
       EnableWriteUnprotector = false;
-      ForceBooterSignature = false;
-      ForceExitBootServices = false;
-      ProtectMemoryRegions = false;
-      ProtectSecureBoot = false;
       ProtectUefiServices = true;
-      ProvideCustomSlide = true;
-      ProvideMaxSlide = 0;
       RebuildAppleMemoryMap = true;
-      ResizeAppleGpuBars = -1;
-      # Set to false by dortania guide, need testing
-      SetupVirtualMap = true;
-      SignalAppleOS = false;
       SyncRuntimePermissions = true;
     };
   };

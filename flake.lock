@@ -38,11 +38,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1661665513,
-        "narHash": "sha256-c7u4cvUjAfHArRN+SntG1m2bHBglekowcfdREOsxZgw=",
+        "lastModified": 1661676604,
+        "narHash": "sha256-Tbmd+SIl2L3ZqdkxBXoCFBVExnKo8vNmvZPuVmAF7YM=",
         "owner": "LEXUGE",
         "repo": "oceanix",
-        "rev": "66e36e4fbb13ef67d1378661fc22b9f2bd52ed2d",
+        "rev": "181a87c9aa9bcf366f2e2cbc11a17ac2ef2999ec",
         "type": "github"
       },
       "original": {

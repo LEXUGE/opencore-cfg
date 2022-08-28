@@ -10,10 +10,11 @@
     ./UEFI.nix
   ];
 
-  config.oceanix.opencore = {
-    resources.ACPIFolders = [ ../../resources/x1c7/ACPI ];
-    resources.KextsFolders = [ ../../resources/x1c7/Kexts ];
-    resources.packages = [
+  config.oceanix.opencore.resources = {
+    ACPIFolders = [ ../../resources/x1c7/ACPI ];
+    KextsFolders = [ ../../resources/x1c7/Kexts ];
+    DriversFolders = [ ../../resources/x1c7/Drivers ];
+    packages = [
       pkgs.airportitlwm-latest-stable-big_sur
       pkgs.applealc-latest-release
       pkgs.brightnesskeys-latest-release

@@ -30,15 +30,5 @@
         TableSignature = mkData "";
       }
     ];
-
-    # Copied from sample.plist
-    Quirks = {
-      FadtEnableReset = false;
-      NormalizeHeaders = false;
-      RebaseRegions = false;
-      ResetHwSig = false;
-      ResetLogoStatus = true;
-      SyncTableIds = false;
-    };
   };
 }

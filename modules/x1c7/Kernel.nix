@@ -34,41 +34,17 @@
     Emulate = {
       Cpuid1Data = mkData "7AYIAAAAAAAAAAAAAAAAAA==";
       Cpuid1Mask = mkData "/////wAAAAAAAAAAAAAAAA==";
-      DummyPowerManagement = false;
-      MaxKernel = "";
-      MinKernel = "";
     };
 
     Quirks = {
-      AppleCpuPmCfgLock = false;
       AppleXcpmCfgLock = true;
-      AppleXcpmExtraMsrs = false;
-      AppleXcpmForceBoost = false;
-      CustomPciSerialDevice = false;
       CustomSMBIOSGuid = false;
+      # Not needed because we already disabled VT-d
       DisableIoMapper = false;
-      DisableLinkeditJettison = true;
-      DisableRtcChecksum = false;
-      ExtendBTFeatureFlags = false;
-      ExternalDiskIcons = false;
-      ForceAquantiaEthernet = false;
-      ForceSecureBootScheme = false;
-      IncreasePciBarSize = false;
-      LapicKernelPanic = false;
-      LegacyCommpage = false;
       PanicNoKextDump = true;
       PowerTimeoutKernelPanic = true;
-      ProvideCurrentCpuInfo = false;
-      SetApfsTrimTimeout = -1;
-      ThirdPartyDrives = false;
+      # Don't enable on Big Sur
       XhciPortLimit = false;
-    };
-
-    Scheme = {
-      CustomKernel = false;
-      FuzzyMatch = true;
-      KernelArch = "Auto";
-      KernelCache = "Auto";
     };
   };
 }
