@@ -26,6 +26,7 @@
       pkgs.lilu-latest-release
       pkgs.voodooi2c-latest
       pkgs.voodoops2controller-latest-release
+      pkgs.rtcmemoryfixup-latest-release
       pkgs.intel-mausi-latest-release
       pkgs.usbtoolbox-latest-release
     ];
