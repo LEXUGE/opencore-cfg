@@ -15,8 +15,8 @@
       "SMCProcessor.kext".Enabled = true;
       "SMCSuperIO.kext".Enabled = true;
       "USBToolBox.kext".Enabled = true;
-      "UTBDefault.kext".Enabled = true;
-      # "UTBMap.kext".Enabled = true;
+      # "UTBDefault.kext".Enabled = true;
+      "UTBMap.kext".Enabled = true;
       "RTCMemoryFixup.kext".Enabled = true;
       "VirtualSMC.kext".Enabled = true;
       "VoodooI2C.kext".Enabled = true;
