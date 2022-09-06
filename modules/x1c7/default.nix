@@ -20,6 +20,7 @@
       pkgs.brightnesskeys-latest-release
       pkgs.ecenabler-latest-release
       pkgs.intel-bluetooth-firmware-latest
+      pkgs.brcmpatchram-latest-release
       pkgs.nvmefix-latest-release
       pkgs.virtualsmc-latest-release
       pkgs.whatevergreen-latest-release
