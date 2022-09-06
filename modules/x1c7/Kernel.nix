@@ -6,9 +6,9 @@
       "BrightnessKeys.kext".Enabled = true;
       "ECEnabler.kext".Enabled = true;
       "IntelBluetoothFirmware.kext".Enabled = true;
-      "IntelBluetoothInjector.kext" = {Enabled = true; MaxKernel = "20.99.9";};
+      "IntelBluetoothInjector.kext" = { Enabled = true; MaxKernel = "20.99.9"; };
       "IntelBTPatcher.kext".Enabled = true;
-      "BlueToolFixup.kext" = { Enabled = true; MinKernel = "21.00.0";};
+      "BlueToolFixup.kext" = { Enabled = true; MinKernel = "21.00.0"; };
       "IntelMausi.kext".Enabled = true;
       "Lilu.kext".Enabled = true;
       "NVMeFix.kext".Enabled = true;

@@ -10,11 +10,11 @@
         "framebuffer-fbmem" = mkData "AACQAA==";
         # "enable-hdmi20" = mkData "AQAAAA==";
         # "framebuffer-con0-enable" = mkData "AQAAAA==";
-				# "framebuffer-con0-alldata" = mkData "AAAIAAIAAACYAAAA";
+        # "framebuffer-con0-alldata" = mkData "AAAIAAIAAACYAAAA";
         # "framebuffer-con1-enable" = mkData "AQAAAA==";
-				# "framebuffer-con1-alldata" = mkData "AQEJAAAIAACHAQAA";
+        # "framebuffer-con1-alldata" = mkData "AQEJAAAIAACHAQAA";
         # "framebuffer-con2-enable" = mkData "AQAAAA==";
-				# "framebuffer-con2-alldata" = mkData "AgQKAAAEAACHAQAA";
+        # "framebuffer-con2-alldata" = mkData "AgQKAAAEAACHAQAA";
         # Patch the ports' connector-type to HDMI
         # "framebuffer-con1-type" = mkData "AAgAAA=="; # <00080000>
         # "framebuffer-con2-type" = mkData "AAgAAA=="; # <00080000>
