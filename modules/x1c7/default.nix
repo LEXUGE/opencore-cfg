@@ -15,8 +15,8 @@
     KextsFolders = [ ../../resources/x1c7/Kexts ];
     DriversFolders = [ ../../resources/x1c7/Drivers ];
     packages = [
-      # pkgs.airportitlwm-latest-stable-big_sur
-      pkgs.airportitlwm-latest-stable-monterey
+      # pkgs.airportitlwm-latest-ventura
+      pkgs.itlwm-latest
       pkgs.applealc-latest-release
       pkgs.brightnesskeys-latest-release
       pkgs.ecenabler-latest-release

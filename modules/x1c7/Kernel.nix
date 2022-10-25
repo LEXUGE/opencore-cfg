@@ -1,7 +1,8 @@
 { lib, pkgs, ... }: with lib.oc.plist; {
   oceanix.opencore.settings.Kernel = {
     Add = {
-      "AirportItlwm.kext".Enabled = true;
+      # "AirportItlwm.kext".Enabled = true;
+      "itlwm.kext".Enabled = true;
       "AppleALC.kext".Enabled = true;
       "BrightnessKeys.kext".Enabled = true;
       "ECEnabler.kext".Enabled = true;
